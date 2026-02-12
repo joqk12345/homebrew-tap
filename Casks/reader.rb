@@ -1,14 +1,14 @@
 cask "reader" do
-  version "0.3.4"
+  version "0.3.6"
 
   on_arm do
-    sha256 "2f2e5ad73f8a5cf5e345ea6e17e1bb812ec520f78aaa680a3a8dd3bcd91a1c17"
-    url "https://github.com/joqk12345/E-reader/releases/download/v0.3.4/reader_0.3.4_aarch64.dmg"
+    sha256 "5cdf398aed281f5723c5a1c4a5997a0815407362bc2f991d42c7565af6425180"
+    url "https://github.com/joqk12345/E-reader/releases/download/v0.3.6/reader_0.3.4_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "2607b5c1803cc619fd81dfb42e2b3f5ff01610179ffed906a9228cf2ecf7c2df"
-    url "https://github.com/joqk12345/E-reader/releases/download/v0.3.4/reader_0.3.4_x64.dmg"
+    sha256 "74412ad7a5abfc866cb84e1720d8168b3718c7437fce97de9dafd824aeab8d91"
+    url "https://github.com/joqk12345/E-reader/releases/download/v0.3.6/reader_0.3.4_x64.dmg"
   end
 
   name "reader"
