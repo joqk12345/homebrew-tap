@@ -1,16 +1,11 @@
 cask "reader" do
-  version "0.3.10"
+  arch arm: "aarch64", intel: "x64"
 
-  on_arm do
-    sha256 "3002ce6a480731a8b7f529ed991139ba3a2d1f5ff2206b569a68071f4e641c74"
-    url "https://github.com/joqk12345/E-reader/releases/download/v0.3.10/reader_0.3.4_aarch64.dmg"
-  end
+  version "0.4.4"
+  sha256 arm:   "274d5f1dae5a08a5b5badbfda36ee9dea6a69fd170958aabf7e3eb8460c25b35",
+         intel: "288716c9c4117eebe36574be9df4e122c50c6cf6e9ed7b040f3cd626336c1001"
 
-  on_intel do
-    sha256 "456e160c2d0fa32b92b72ed6b4e61f864810e12553f47bc7aa045be10c7a0e97"
-    url "https://github.com/joqk12345/E-reader/releases/download/v0.3.10/reader_0.3.4_x64.dmg"
-  end
-
+  url "https://github.com/joqk12345/E-reader/releases/download/v#{version}/reader_#{version}_#{arch}.dmg"
   name "reader"
   desc "Local-first EPUB reader with AI-powered features"
   homepage "https://github.com/joqk12345/E-reader"
